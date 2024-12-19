@@ -203,3 +203,29 @@ body {
     border: 2px solid #17340929;
     border-radius: 10px;
 }
+
+
+
+@media (max-width:767px) {
+    .fullnav{
+        display: none;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .last{
+        flex-direction: column;
+    }
+    .text{
+        margin-top: 3rem;
+    }
+    .feed{
+        flex-direction: column;
+    }
+    .card-holder{
+        width: 90vw;
+    }
+}
